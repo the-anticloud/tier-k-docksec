@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_DOCKSEC",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 5,
+    "average_complexity": {
+      "grade": "A",
+      "score": 3.268041237113402
+    },
+    "complexity_grade": "A",
+    "complexity_score": 3.268041237113402,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_DOCKSEC\\UPSTREAM\\_anticloud_egress.py\n    F 38:0 _is_frontier - A (4)\n    F 43:0 guarded_connect - A (4)\n    F 61:0 install - A (3)\n    F 33:0 is_offline - A (1)\n    C 29:0 EgressDenied - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_DOCKSEC\\UPSTREAM\\pkg\\fanal\\analyzer\\language\\c\\conan\\testdata\\cacheDir\\.conan\\data\\openssl\\3.0.5\\_\\_\\export\\conanfile.py\n    M 342:4 OpenSSLConan._configure_args - D (22)\n    M 532:4 OpenSSLConan.package - C (15)\n    M 417:4 OpenSSLConan._create_targets - B (10)\n    M 622:4 OpenSSLConan.package_info - B (8)\n    M 322:4 OpenSSLConan._ancestor_target - B (6)\n    M 118:4 OpenSSLConan.build_requirements - A (5)\n    M 129:4 OpenSSLConan.validate - A (5)\n    M 481:4 OpenSSLConan._run_make - A (5)\n    C 17:0 OpenSSLConan - A (4)\n    M 189:4 OpenSSLConan._asm_target - A (4)\n    M 218:4 OpenSSLConan._targets - A (4)\n    M 497:4 OpenSSLConan._make - A (4)\n    M 96:4 OpenSSLConan.config_options - A (3)\n    M 157:4 OpenSSLConan._target - A (3)\n    M 166:4 OpenSSLConan._perlasm_scheme - A (3)\n    M 108:4 OpenSSLConan.configure - A (2)\n    M 114:4 OpenSSLConan.requirements - A (2)\n    M 141:4 OpenSSLConan._is_clangcl - A (2)\n    M 145:4 OpenSSLConan._is_mingw - A (2)\n    M 149:4 OpenSSLConan._use_nmake - A (2)\n    M 336:4 OpenSSLConan._get_default_openssl_dir - A (2)\n    M 405:4 OpenSSLConan.generate - A (2)\n    M 492:4 OpenSSLConan._perl - A (2)\n    M 523:4 OpenSSLConan._make_program - A ",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_DOCKSEC\\UPSTREAM\\_anticloud_egress.py - A (79.55)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_DOCKSEC\\UPSTREAM\\pkg\\fanal\\analyzer\\language\\c\\conan\\testdata\\cacheDir\\.conan\\data\\openssl\\3.0.5\\_\\_\\export\\conanfile.py - B (14.86)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_DOCKSEC\\UPSTREAM\\pkg\\fanal\\analyzer\\language\\c\\conan\\testdata\\cacheDir\\.conan\\data\\zlib\\1.2.13\\_\\_\\export\\conanfile.py - A (46.76)\nE:\\fenta\\Downloads"
+  }
+}

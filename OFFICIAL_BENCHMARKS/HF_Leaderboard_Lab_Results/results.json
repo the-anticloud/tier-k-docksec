@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_DOCKSEC",
+  "tier": "TIER_6_SECURITY_EVAL",
+  "slug": "aquasecurity/trivy",
+  "commit": "3a1b311e63a1",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 47.68,
+      "min": 45.0,
+      "max": 52.41,
+      "all": [
+        52.41,
+        48.49,
+        45.0,
+        47.01,
+        45.49
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_DOCKSEC (aquasecurity/trivy) \u2014 3400 files, 283269 source lines, licence Apache-2.0, primary language ['Go']",
+      "token_count": 40,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "docks",
+        "##ec",
+        "(",
+        "aqua",
+        "##se",
+        "##cu",
+        "##rity",
+        "/",
+        "tri",
+        "##vy",
+        ")",
+        "\u2014",
+        "340",
+        "##0",
+        "files",
+        ",",
+        "283"
+      ],
+      "tokenization_latency_ms": 0.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5842,
+      "classification_latency_ms": 83.95,
+      "status": "PASS"
+    }
+  }
+}
